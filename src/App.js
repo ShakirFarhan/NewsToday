@@ -5,10 +5,9 @@ import Navbar from "./components/Navbar";
 import Newsitem from "./components/Newsitem";
 import News from "./components/News";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Routes,
-  NavLink,
 } from "react-router-dom";
 export default class App extends Component {
   render() {
